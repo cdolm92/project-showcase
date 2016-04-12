@@ -12,6 +12,10 @@
 		F7CECAAE1CBCA79000F7EFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CECAAC1CBCA79000F7EFF4 /* Main.storyboard */; };
 		F7CECAB01CBCA79000F7EFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CECAAF1CBCA79000F7EFF4 /* Assets.xcassets */; };
 		F7CECAB31CBCA79000F7EFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CECAB11CBCA79000F7EFF4 /* LaunchScreen.storyboard */; };
+		F7CECAC21CBCAE4400F7EFF4 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7CECABE1CBCAE4400F7EFF4 /* NotoSans-Bold.ttf */; };
+		F7CECAC31CBCAE4400F7EFF4 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7CECABF1CBCAE4400F7EFF4 /* NotoSans-BoldItalic.ttf */; };
+		F7CECAC41CBCAE4400F7EFF4 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7CECAC01CBCAE4400F7EFF4 /* NotoSans-Italic.ttf */; };
+		F7CECAC51CBCAE4400F7EFF4 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7CECAC11CBCAE4400F7EFF4 /* NotoSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F7CECAAF1CBCA79000F7EFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7CECAB21CBCA79000F7EFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7CECAB41CBCA79000F7EFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CECABE1CBCAE4400F7EFF4 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		F7CECABF1CBCAE4400F7EFF4 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F7CECAC01CBCAE4400F7EFF4 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		F7CECAC11CBCAE4400F7EFF4 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		F7CECAA71CBCA79000F7EFF4 /* project-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				F7CECABD1CBCAE2000F7EFF4 /* Resources */,
+				F7CECABC1CBCAE1400F7EFF4 /* Model */,
+				F7CECABB1CBCAE0E00F7EFF4 /* View */,
+				F7CECABA1CBCAE0500F7EFF4 /* Controller */,
 				F7CECAA81CBCA79000F7EFF4 /* AppDelegate.swift */,
 				F7CECAAA1CBCA79000F7EFF4 /* ViewController.swift */,
 				F7CECAAC1CBCA79000F7EFF4 /* Main.storyboard */,
@@ -62,6 +74,38 @@
 				F7CECAB41CBCA79000F7EFF4 /* Info.plist */,
 			);
 			path = "project-showcase";
+			sourceTree = "<group>";
+		};
+		F7CECABA1CBCAE0500F7EFF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F7CECABB1CBCAE0E00F7EFF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F7CECABC1CBCAE1400F7EFF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F7CECABD1CBCAE2000F7EFF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7CECABE1CBCAE4400F7EFF4 /* NotoSans-Bold.ttf */,
+				F7CECABF1CBCAE4400F7EFF4 /* NotoSans-BoldItalic.ttf */,
+				F7CECAC01CBCAE4400F7EFF4 /* NotoSans-Italic.ttf */,
+				F7CECAC11CBCAE4400F7EFF4 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +167,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CECAC21CBCAE4400F7EFF4 /* NotoSans-Bold.ttf in Resources */,
 				F7CECAB31CBCA79000F7EFF4 /* LaunchScreen.storyboard in Resources */,
+				F7CECAC31CBCAE4400F7EFF4 /* NotoSans-BoldItalic.ttf in Resources */,
+				F7CECAC41CBCAE4400F7EFF4 /* NotoSans-Italic.ttf in Resources */,
 				F7CECAB01CBCA79000F7EFF4 /* Assets.xcassets in Resources */,
 				F7CECAAE1CBCA79000F7EFF4 /* Main.storyboard in Resources */,
+				F7CECAC51CBCAE4400F7EFF4 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +337,7 @@
 				F7CECAB91CBCA79000F7EFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
