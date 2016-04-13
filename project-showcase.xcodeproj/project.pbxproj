@@ -11,7 +11,7 @@
 		F72C448D1CBDC3A8001B271D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72C448A1CBDC3A8001B271D /* Bolts.framework */; };
 		F72C448E1CBDC3A8001B271D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72C448B1CBDC3A8001B271D /* FBSDKCoreKit.framework */; };
 		F72C448F1CBDC3A8001B271D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72C448C1CBDC3A8001B271D /* FBSDKLoginKit.framework */; };
-		F72C44911CBDCE2A001B271D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72C44901CBDCE2A001B271D /* Default-568h@2x.png */; };
+		F72C44941CBDEC76001B271D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C44931CBDEC76001B271D /* DataService.swift */; };
 		F7CECAA91CBCA79000F7EFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CECAA81CBCA79000F7EFF4 /* AppDelegate.swift */; };
 		F7CECAAB1CBCA79000F7EFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CECAAA1CBCA79000F7EFF4 /* ViewController.swift */; };
 		F7CECAAE1CBCA79000F7EFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CECAAC1CBCA79000F7EFF4 /* Main.storyboard */; };
@@ -34,7 +34,7 @@
 		F72C448A1CBDC3A8001B271D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		F72C448B1CBDC3A8001B271D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		F72C448C1CBDC3A8001B271D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		F72C44901CBDCE2A001B271D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F72C44931CBDEC76001B271D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		F7CECAA51CBCA79000F7EFF4 /* project-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CECAA81CBCA79000F7EFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7CECAAA1CBCA79000F7EFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,10 +87,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F72C44921CBDEC5D001B271D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F72C44931CBDEC76001B271D /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		F7CECA9C1CBCA79000F7EFF4 = {
 			isa = PBXGroup;
 			children = (
-				F72C44901CBDCE2A001B271D /* Default-568h@2x.png */,
 				F72C44891CBDC396001B271D /* Frameworks */,
 				F7CECAA71CBCA79000F7EFF4 /* project-showcase */,
 				F7CECAA61CBCA79000F7EFF4 /* Products */,
@@ -109,6 +116,7 @@
 		F7CECAA71CBCA79000F7EFF4 /* project-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				F72C44921CBDEC5D001B271D /* Services */,
 				F7CECAC81CBCB78800F7EFF4 /* Utilities */,
 				F7CECABC1CBCAE1400F7EFF4 /* Model */,
 				F7CECABB1CBCAE0E00F7EFF4 /* View */,
@@ -234,7 +242,6 @@
 				F7CECAC31CBCAE4400F7EFF4 /* NotoSans-BoldItalic.ttf in Resources */,
 				F7CECAC41CBCAE4400F7EFF4 /* NotoSans-Italic.ttf in Resources */,
 				F7CECAB01CBCA79000F7EFF4 /* Assets.xcassets in Resources */,
-				F72C44911CBDCE2A001B271D /* Default-568h@2x.png in Resources */,
 				F7CECAAE1CBCA79000F7EFF4 /* Main.storyboard in Resources */,
 				F7CECAC51CBCAE4400F7EFF4 /* NotoSans-Regular.ttf in Resources */,
 			);
@@ -296,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CECAD01CBCBDD000F7EFF4 /* MaterialTextField.swift in Sources */,
+				F72C44941CBDEC76001B271D /* DataService.swift in Sources */,
 				F7CECAC71CBCB74A00F7EFF4 /* MaterialView.swift in Sources */,
 				F7CECAAB1CBCA79000F7EFF4 /* ViewController.swift in Sources */,
 				F7CECAA91CBCA79000F7EFF4 /* AppDelegate.swift in Sources */,
